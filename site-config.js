@@ -1,1 +1,1 @@
-window.UNPLUG_SITE={name:"UNPLUG LABS® OFFLINE OS",siteUrl:"https://YOUR-OFFLINE-OS-DOMAIN.vercel.app",githubUrl:"https://github.com/jaswindermehrok98-cmd/legendary-octo-potato",latestVersion:"1.0.0",packageName:"com.unpluglabs.offlineos"};
+window.UNPLUG_SITE={name:"UNPLUG LABS® OFFLINE OS",siteUrl:"https://unpluglabs-offlineos.vercel.app",githubUrl:"https://github.com/jaswindermehrok98-cmd/legendary-octo-potato",latestVersion:"1.0.0",packageName:"com.unpluglabs.offlineos"};
