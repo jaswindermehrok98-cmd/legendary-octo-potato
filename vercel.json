@@ -1,10 +1,43 @@
 {
+  "$schema": "https://openapi.vercel.sh/vercel.json",
   "redirects": [
     {
       "source": "/index.html",
       "destination": "/",
       "permanent": true
     }
+  ],
+  "rewrites": [
+    { "source": "/", "destination": "/index.html" },
+    { "source": "/offline-os", "destination": "/offline-os.html" },
+    { "source": "/features", "destination": "/features.html" },
+    { "source": "/download", "destination": "/download.html" },
+    { "source": "/docs", "destination": "/docs.html" },
+    { "source": "/faq", "destination": "/faq.html" },
+    { "source": "/installation", "destination": "/installation.html" },
+    { "source": "/compatibility", "destination": "/compatibility.html" },
+    { "source": "/permissions", "destination": "/permissions.html" },
+    { "source": "/security", "destination": "/security.html" },
+    { "source": "/roadmap", "destination": "/roadmap.html" },
+    { "source": "/releases", "destination": "/releases.html" },
+    { "source": "/privacy", "destination": "/privacy.html" },
+    { "source": "/terms", "destination": "/terms.html" },
+    { "source": "/legal", "destination": "/legal.html" },
+    { "source": "/contact", "destination": "/contact.html" },
+    { "source": "/acceptable-use", "destination": "/acceptable-use.html" },
+    { "source": "/account-deletion", "destination": "/account-deletion.html" },
+    { "source": "/age-child-safety", "destination": "/age-child-safety.html" },
+    { "source": "/billing-payments", "destination": "/billing-payments.html" },
+    { "source": "/cookie-preferences", "destination": "/cookie-preferences.html" },
+    { "source": "/data", "destination": "/data.html" },
+    { "source": "/disclaimer", "destination": "/disclaimer.html" },
+    { "source": "/eula", "destination": "/eula.html" },
+    { "source": "/grievance-redressal", "destination": "/grievance-redressal.html" },
+    { "source": "/intellectual-property", "destination": "/intellectual-property.html" },
+    { "source": "/third-party-apps", "destination": "/third-party-apps.html" },
+    { "source": "/site-map", "destination": "/site-map.html" },
+    { "source": "/ai-reference", "destination": "/ai-reference.html" },
+    { "source": "/changelog", "destination": "/changelog.html" }
   ],
   "headers": [
     {
