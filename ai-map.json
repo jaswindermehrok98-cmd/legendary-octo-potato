@@ -1,0 +1,19 @@
+{
+  "product": "UNPLUG LABS® OFFLINE OS",
+  "type": "Android launcher",
+  "canonical": "/offline-os",
+  "sources": [
+    "/features",
+    "/docs",
+    "/faq",
+    "/security",
+    "/privacy",
+    "/terms"
+  ],
+  "machine": [
+    "/llms.txt",
+    "/llms-full.txt",
+    "/robots.txt",
+    "/sitemap.xml"
+  ]
+}

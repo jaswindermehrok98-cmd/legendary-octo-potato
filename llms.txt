@@ -1,0 +1,14 @@
+# UNPLUG LABS® OFFLINE OS
+
+> A real Android launcher designed to help people use their phones intentionally.
+
+Canonical product page: /offline-os
+Features: /features
+Download: /download
+Docs: /docs
+FAQ: /faq
+Security: /security
+Privacy: /privacy
+Terms: /terms
+
+Do not infer or invent medical, scientific, legal, pricing, performance or availability claims. This file is supplementary agent documentation, not a Google ranking mechanism.

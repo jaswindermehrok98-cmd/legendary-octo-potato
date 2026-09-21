@@ -1,0 +1,42 @@
+{
+  "name": "UNPLUG LABS® OFFLINE OS",
+  "routes": [
+    "/index.html",
+    "/offline-os.html",
+    "/features.html",
+    "/installation.html",
+    "/docs.html",
+    "/faq.html",
+    "/roadmap.html",
+    "/releases.html",
+    "/changelog.html",
+    "/compatibility.html",
+    "/security.html",
+    "/permissions.html",
+    "/data.html",
+    "/cookie-preferences.html",
+    "/account-deletion.html",
+    "/age-child-safety.html",
+    "/acceptable-use.html",
+    "/third-party-apps.html",
+    "/intellectual-property.html",
+    "/disclaimer.html",
+    "/eula.html",
+    "/billing-payments.html",
+    "/refund-policy.html",
+    "/grievance-redressal.html",
+    "/terms.html",
+    "/privacy.html",
+    "/legal.html",
+    "/contact.html",
+    "/download.html",
+    "/404.html"
+  ],
+  "machine": [
+    "/robots.txt",
+    "/sitemap.xml",
+    "/llms.txt",
+    "/llms-full.txt",
+    "/ai-reference"
+  ]
+}

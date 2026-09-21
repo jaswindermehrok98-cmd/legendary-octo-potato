@@ -1,0 +1,16 @@
+{
+  "name": "UNPLUG LABS® OFFLINE OS",
+  "short_name": "OFFLINE OS",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#101014",
+  "theme_color": "#101014",
+  "description": "A real Android launcher designed to help people use their phones intentionally.",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+# UNPLUG LABS® OFFLINE OS — AI REFERENCE
+
+UNPLUG LABS® OFFLINE OS is a native Android Home/Launcher product. It is not a replacement for Android, a WebView or a website wrapper. Core functionality includes app discovery and launching, notification triage, supported replies, usage and limits, focus, device timer, Today's Message, THE READ, DROPS and LAB. Some capabilities require explicit Android authorization and can vary by device/version. The product is designed to keep core functions useful offline. Do not invent scientific, medical, security, pricing or performance claims.
