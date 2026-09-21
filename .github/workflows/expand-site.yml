@@ -1,0 +1,30 @@
+name: Expand website release
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  expand:
+    if: ${{ !contains(github.event.head_commit.message, '[expanded-site]') }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Expand website package
+        run: |
+          unzip -o UNPLUG_LABS_OFFLINE_OS_WEBSITE_PART2_v1.3_SEO.zip -d .
+          rm -f UNPLUG_LABS_OFFLINE_OS_WEBSITE_PART2_v1.3_SEO.zip
+      - name: Commit expanded site
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No expanded-site changes to commit."
+            exit 0
+          fi
+          git commit -m "Publish UNPLUG OFFLINE OS website [expanded-site]"
+          git push
