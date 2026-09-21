@@ -16,4 +16,4 @@ Allow: /
 User-agent: Claude-User
 Allow: /
 
-Sitemap: https://YOUR-OFFLINE-OS-DOMAIN.vercel.app/sitemap.xml
+Sitemap: https://unpluglabs-offlineos.vercel.app/sitemap.xml
