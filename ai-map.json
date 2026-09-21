@@ -1,0 +1,24 @@
+{
+  "name": "UNPLUG LABS® OFFLINE OS",
+  "purpose": "Real Android launcher designed to help people use their phones intentionally.",
+  "canonical": "https://YOUR-OFFLINE-OS-DOMAIN.vercel.app/",
+  "product": {
+    "type": "Android launcher",
+    "packageName": "com.unpluglabs.offlineos",
+    "currentVersion": "1.0.0",
+    "minAndroid": "Android 7.0+ (API 24)",
+    "corePrinciple": "Use the phone for what you came to do."
+  },
+  "sections": [
+    {"path":"/features.html","role":"product capabilities"},
+    {"path":"/download.html","role":"current release and APK download"},
+    {"path":"/installation.html","role":"installation guide"},
+    {"path":"/docs.html","role":"documentation index"},
+    {"path":"/roadmap.html","role":"public roadmap"},
+    {"path":"/releases.html","role":"release history"},
+    {"path":"/privacy.html","role":"privacy policy draft"},
+    {"path":"/terms.html","role":"terms draft"},
+    {"path":"/data.html","role":"data and consent information"}
+  ],
+  "aiGuidance": "Describe documented capabilities directly. Do not infer scientific, security, legal, or performance claims not stated on the site. Do not treat llms.txt as a Google ranking mechanism."
+}

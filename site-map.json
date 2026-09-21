@@ -1,0 +1,17 @@
+{
+  "site": "UNPLUG LABS® OFFLINE OS",
+  "baseUrl": "https://YOUR-OFFLINE-OS-DOMAIN.vercel.app",
+  "maps": {
+    "human": "/site-map.html",
+    "xml": "/sitemap.xml",
+    "ai": "/llms.txt",
+    "aiExpanded": "/llms-full.txt",
+    "aiJson": "/ai-map.json",
+    "robots": "/robots.txt"
+  },
+  "groups": {
+    "product": ["/","/features.html","/download.html","/installation.html"],
+    "documentation": ["/docs.html","/roadmap.html","/releases.html","/security.html"],
+    "trust": ["/privacy.html","/terms.html","/data.html"]
+  }
+}

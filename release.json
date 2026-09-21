@@ -1,0 +1,12 @@
+{
+  "product": "UNPLUG LABS® OFFLINE OS",
+  "type": "android-launcher",
+  "version": "1.0.0",
+  "package": "com.unpluglabs.offlineos",
+  "minimumAndroid": "Android 7.0+ (API 24)",
+  "releaseDate": "2026-09-21",
+  "status": "current",
+  "apkFileName": "UNPLUG-LABS-OFFLINE-OS-v1.0.0.apk",
+  "distribution": "GitHub Releases",
+  "downloadUrl": "https://github.com/YOUR-ACCOUNT/unplug-labs-offline-os/releases/latest/download/UNPLUG-LABS-OFFLINE-OS-v1.0.0.apk"
+}

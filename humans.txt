@@ -1,0 +1,7 @@
+UNPLUG LABS® OFFLINE OS
+
+Product: Real Android launcher
+Design: UNPLUG LABS®
+Current release: 1.0.0
+Repository: configure in site-config.js before publication
+Website: configure in site-config.js before publication

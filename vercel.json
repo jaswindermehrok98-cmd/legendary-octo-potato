@@ -1,0 +1,23 @@
+{
+  "rewrites": [
+    {"source":"/offline-os","destination":"/offline-os.html"},
+    {"source":"/features","destination":"/features.html"},
+    {"source":"/download","destination":"/download.html"},
+    {"source":"/installation","destination":"/installation.html"},
+    {"source":"/docs","destination":"/docs.html"},
+    {"source":"/roadmap","destination":"/roadmap.html"},
+    {"source":"/releases","destination":"/releases.html"},
+    {"source":"/changelog","destination":"/changelog.html"},
+    {"source":"/compatibility","destination":"/compatibility.html"},
+    {"source":"/accessibility","destination":"/accessibility.html"},
+    {"source":"/security","destination":"/security.html"},
+    {"source":"/privacy","destination":"/privacy.html"},
+    {"source":"/terms","destination":"/terms.html"},
+    {"source":"/data","destination":"/data.html"},
+    {"source":"/cookie-preferences","destination":"/cookie-preferences.html"},
+    {"source":"/site-map","destination":"/site-map.html"}
+  ],
+  "headers": [
+    {"source":"/(.*)","headers":[{"key":"X-Content-Type-Options","value":"nosniff"},{"key":"Referrer-Policy","value":"strict-origin-when-cross-origin"},{"key":"Permissions-Policy","value":"camera=(), microphone=(), geolocation=()"}]}
+  ]
+}

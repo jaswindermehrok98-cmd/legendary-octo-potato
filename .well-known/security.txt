@@ -1,0 +1,4 @@
+Contact: mailto:[SECURITY EMAIL]
+Expires: 2027-09-21T00:00:00Z
+Preferred-Languages: en
+Canonical: https://YOUR-OFFLINE-OS-DOMAIN.vercel.app/.well-known/security.txt

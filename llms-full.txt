@@ -1,0 +1,43 @@
+# UNPLUG LABS® OFFLINE OS — EXTENDED AI/AGENT REFERENCE
+
+## Product identity
+UNPLUG LABS® OFFLINE OS is a native Android launcher. It is designed to become the user's Home application and to change the default relationship between a person and their phone. The product is not an Android replacement OS, not a website converted into an application, and not a webview shell.
+
+## Product philosophy
+The central product idea is: “Use the phone for what you came to do.” The launcher should keep communication and useful applications accessible while reducing unnecessary app opening, notification fragmentation, endless scrolling, and attention switching. The user remains in control. The product should not use shame, coercive lockouts, fake urgency, or dark patterns.
+
+## Core launcher
+The Home screen is intentionally minimal and editorial. It prioritizes time, today's context, important communication, focus state, essential apps, and search. Installed applications are discovered dynamically rather than hard-coded.
+
+## Inbox
+The launcher can organize Android notifications after the user explicitly grants notification access. Notification presentation is a triage layer, not a copy of the Android notification shade. When a notification exposes a supported reply action/RemoteInput, the launcher may surface Reply. When no supported reply action exists, it should provide Open App. The launcher must never fake or auto-send a reply.
+
+## Usage and limits
+App limits use Android-supported usage information. Daily limits and temporary sessions may be configured for selected applications. Enforcement depends on platform capabilities and device configuration. The product should never claim perfect timing or measurement on every Android device. Accessibility-based intervention, when used, is narrowly scoped to the explicitly configured app-limiting experience and must not be used for password capture, banking data, screen recording, or covert monitoring.
+
+## Device timer
+A device-wide timer can be configured. When the timer ends, actual device locking may be invoked only when the required Android device-management capability is legitimately enabled by the user. The app must not display a fake “locked” screen and claim the device is actually locked.
+
+## Focus
+Focus sessions temporarily simplify the launcher and deprioritize configured distractions. A user must retain a clear exit path and access to essential phone functionality.
+
+## Today's Message
+A local library provides short, calm, non-diagnostic daily messages. Core operation does not require Gemini or another cloud AI model.
+
+## UNPLUG experiences
+THE READ is an experimental self-reflection/perception experience. It is not a medical or scientific diagnosis. DROPS are small interactive artifacts. LAB is an experimental playground covering areas such as attention, perception, time, memory, choice, and pattern. These experiences are secondary to the launcher itself.
+
+## Offline-first
+The core launcher should remain useful without internet access. Core Home, installed-app access, search, local timers, limits, focus, Today's Message, THE READ, DROPS, LAB, and settings should not require a remote server. Account synchronization, if introduced, is optional and must not make the core launcher unusable offline.
+
+## Privacy
+The product should not upload notification contents, message text, screen captures, passwords, banking information, or raw accessibility content. It should request only the platform capabilities required for features the user chooses.
+
+## Website distribution
+The public website is a separate product property for the launcher. The site should provide product information, download instructions, release history, documentation, legal information, and machine-readable discovery resources. The APK should be distributed as a binary asset of a canonical GitHub Release rather than committed to normal Git history.
+
+## Search and AI discoverability
+This website uses ordinary search-friendly architecture: unique HTML content, clear internal links, canonical URLs, structured data where appropriate, robots.txt, sitemap.xml, and documentation. llms.txt and related AI-readable resources are provided as agent-friendly documentation, not as a guaranteed Google ranking or AI-search mechanism.
+
+## Commercial access
+The current Pro access flow is a human contact flow. The website/app should not invent a finished checkout or fake pricing until actual commercial terms and payment infrastructure exist.

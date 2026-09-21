@@ -1,0 +1,52 @@
+# UNPLUG LABS® OFFLINE OS
+
+> A real Android launcher designed to help people use their phones intentionally.
+
+Canonical website: https://YOUR-OFFLINE-OS-DOMAIN.vercel.app/
+Current version: 1.0.0
+Android package: com.unpluglabs.offlineos
+Minimum target: Android 7.0+ (API 24)
+
+## Core product
+- Real Android Home/Launcher application.
+- Not a website wrapper and not a replacement operating system.
+- Focuses on intentional phone use, communication, app access, limits, timers, and focus.
+
+## Key capabilities
+- Android Home role / launcher behavior.
+- Installed-app discovery, search, and launching.
+- Notification inbox using Android notification access when authorized.
+- Reply from launcher only when the originating notification exposes a supported reply action.
+- App usage and limits using Android-supported usage information.
+- Focus sessions.
+- Device timer with actual device locking only when the required Android capability is explicitly enabled.
+- Today's Message.
+- Optional UNPLUG LABS experiences: THE READ, DROPS, LAB.
+
+## Principles
+- User control before automation.
+- Local-first core functionality.
+- No fake psychological diagnosis.
+- No fake security, legal, or performance claims.
+- No hidden surveillance.
+
+## Important pages
+- /features.html — feature documentation
+- /download.html — current APK release
+- /installation.html — install and setup guide
+- /docs.html — documentation index
+- /roadmap.html — roadmap
+- /releases.html — release history
+- /security.html — APK verification and security guidance
+- /privacy.html — privacy draft
+- /terms.html — terms draft
+- /data.html — data and consent
+- /site-map.html — human-readable site map
+
+## Machine resources
+- /llms.txt
+- /llms-full.txt
+- /ai-map.json
+- /site-map.json
+- /robots.txt
+- /sitemap.xml
